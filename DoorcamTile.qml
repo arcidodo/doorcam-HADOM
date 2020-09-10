@@ -64,16 +64,16 @@ Tile {
         			var aString = JsonObject.state;
 
 				if (aString == "100.0"){
-					if (app.doorcamhaFullScreen) {
-						//app.doorcamhaFullScreen.showMinimized();
-						app.doorcamhaFullScreen.hide();
+					if (app.doorcamFullScreen) {
+						//app.doorcamFullScreen.showMinimized();
+						app.doorcamFullScreen.hide();
 						console.log("webcam: app.webcamFullScreen.hide() called")
 					}
 				}
 
 				if (aString == "200.0"){
-					if (app.doorcamhaFullScreen) {
-						app.doorcamhaFullScreen.show();
+					if (app.doorcamFullScreen) {
+						app.doorcamFullScreen.show();
 						console.log("webcam: app.webcamFullScreen.show() called")
 					}
 				}
