@@ -97,9 +97,9 @@ App {
 			domoticzURL1 = doorcamSettingsJson['domURL'];
 			domoticzIDX = doorcamSettingsJson['idx'];
 			domoticzVAR = doorcamSettingsJson['var'];
-			haURL1 = doorcamhaSettingsJson['haURL'];
-			haEntity_id = doorcamhaSettingsJson['entity_id'];
-			haToken = doorcamhaSettingsJson['token'];
+			haURL1 = doorcamSettingsJson['haURL'];
+			haEntity_id = doorcamSettingsJson['entity_id'];
+			haToken = doorcamSettingsJson['token'];
 
 		} catch(e) {
 		}
